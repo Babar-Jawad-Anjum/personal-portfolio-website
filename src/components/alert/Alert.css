@@ -1,0 +1,24 @@
+.cont
+{
+    position: absolute;
+    top: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 10000;
+}
+
+.alert{
+    /* background-color: white; */
+    background: var(--color-primary);
+    /* color: black; */
+    width: 70%;
+    padding: 13px;
+    font-weight: bold;
+    text-align: center;
+    /* margin-top: 20px; */
+    border-radius: 10px;
+    position: relative;
+}
