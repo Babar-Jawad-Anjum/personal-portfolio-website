@@ -44,14 +44,14 @@ const Portfolio = () => {
       image: IMG5,
       title: 'E-Commerce Shoes Template',
       github: 'https://github.com/Babar-Jawad-Anjum/shoes-template',
-      demo: 'https://ecommerce-shoes-template.herokuapp.com/'
+      demo: 'https://luxury-naiad-040217.netlify.app/'
     },
     {
       id: 6,
       image: IMG6,
       title: 'Cocktail-Db',
       github: 'https://github.com/Babar-Jawad-Anjum/Cocktail-db',
-      demo: 'https://cocktail-dbb.herokuapp.com/'
+      demo: 'https://fanciful-souffle-29d33d.netlify.app/'
     }
   ]
 
