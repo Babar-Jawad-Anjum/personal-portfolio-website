@@ -18,6 +18,7 @@ const Portfolio = () => {
       id: 1,
       image: IMG1,
       title: "Text-Utils App",
+      // tech: "       React.js, Bootstrap",
       github: "https://github.com/Babar-Jawad-Anjum/TextUtils-React",
       demo: "https://babar-jawad-anjum.github.io/TextUtils-React/",
     },
@@ -65,13 +66,14 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, tech, github, demo }) => {
           return (
             <article data-aos="fade-left" className="portfolio__item" key={id}>
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
+              {/* <h5>Tech Used:{tech}</h5> */}
               <div className="portfolio__item-cta">
                 <a
                   href={github}
