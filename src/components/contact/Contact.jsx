@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Contact = ({ handleALert }) => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -29,7 +34,7 @@ const Contact = ({ handleALert }) => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <article data-aos="fade-right" className="contact__option">
             <MdOutlineMail />
             <h4>Email</h4>
             <h5>jawadbabar4@gmail.com</h5>
@@ -41,7 +46,7 @@ const Contact = ({ handleALert }) => {
               Send a message
             </a>
           </article>
-          <article className="contact__option">
+          <article data-aos="fade-right" className="contact__option">
             <RiMessengerLine />
             <h4>Messenger</h4>
             <h5>Babar Mughal</h5>
@@ -49,7 +54,7 @@ const Contact = ({ handleALert }) => {
               Send a message
             </a>
           </article>
-          <article className="contact__option">
+          <article data-aos="fade-right" className="contact__option">
             <BsWhatsapp />
             <h4>WhatsApp</h4>
             <h5>+92-310-7653313</h5>
