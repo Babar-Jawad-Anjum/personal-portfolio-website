@@ -6,6 +6,7 @@ import IMG3 from "../../assets/portfolio3.PNG";
 import IMG4 from "../../assets/countrty-finder.PNG";
 import IMG5 from "../../assets/portfolio5.PNG";
 import IMG6 from "../../assets/portfolio6.PNG";
+import IMG7 from "../../assets/portfolio8.PNG";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -57,6 +58,13 @@ const Portfolio = () => {
       title: "Cocktail-Db",
       github: "https://github.com/Babar-Jawad-Anjum/Cocktail-db",
       demo: "https://fanciful-souffle-29d33d.netlify.app/",
+    },
+    {
+      id: 7,
+      image: IMG7,
+      title: "E-Commerce Store",
+      github: "https://github.com/Babar-Jawad-Anjum/Ecommerce-Store",
+      demo: "https://extraordinary-daffodil-9b84ea.netlify.app/tshirts",
     },
   ];
 
