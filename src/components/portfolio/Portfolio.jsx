@@ -19,7 +19,7 @@ const Portfolio = () => {
       id: 1,
       image: IMG1,
       title: "Text-Utils App",
-      // tech: "       React.js, Bootstrap",
+      // tech: "React.Js, Bootstrap",
       github: "https://github.com/Babar-Jawad-Anjum/TextUtils-React",
       demo: "https://babar-jawad-anjum.github.io/TextUtils-React/",
     },
@@ -27,6 +27,7 @@ const Portfolio = () => {
       id: 2,
       image: IMG2,
       title: "Fitness Website",
+      // tech: "SSR, EJS/PUG, Express, Bootstrap, Authentication, Authorization, MongoDb, API's, CRUD",
       github:
         "https://github.com/Babar-Jawad-Anjum/Final-Term-Project-Babar-Fitness",
       demo: "https://babar-fitness-club.herokuapp.com/",
@@ -35,6 +36,7 @@ const Portfolio = () => {
       id: 3,
       image: IMG3,
       title: "Budget Calculator",
+      // tech: "React.Js, Bootstrap",
       github: "https://github.com/Babar-Jawad-Anjum/Budget-calculator",
       demo: "https://babar-jawad-anjum.github.io/Budget-calculator/",
     },
@@ -42,6 +44,7 @@ const Portfolio = () => {
       id: 4,
       image: IMG4,
       title: "Country Finder App",
+      // tech: "React.Js, Bootstrap, API, Search Filter",
       github: "https://github.com/Babar-Jawad-Anjum/country-finder",
       demo: "https://country-finder-wheat.vercel.app/",
     },
@@ -49,6 +52,7 @@ const Portfolio = () => {
       id: 5,
       image: IMG5,
       title: "E-Commerce Shoes Template",
+      // tech: "React.Js, Bootstrap",
       github: "https://github.com/Babar-Jawad-Anjum/shoes-template",
       demo: "https://luxury-naiad-040217.netlify.app/",
     },
@@ -56,6 +60,7 @@ const Portfolio = () => {
       id: 6,
       image: IMG6,
       title: "Cocktail-Db",
+      // tech: "React.Js, Bootstrap, API",
       github: "https://github.com/Babar-Jawad-Anjum/Cocktail-db",
       demo: "https://fanciful-souffle-29d33d.netlify.app/",
     },
@@ -63,8 +68,9 @@ const Portfolio = () => {
       id: 7,
       image: IMG7,
       title: "E-Commerce Store",
-      github: "https://github.com/Babar-Jawad-Anjum/Ecommerce-Store",
-      demo: "https://extraordinary-daffodil-9b84ea.netlify.app/tshirts",
+      // tech: "Next.Js, TailWind CSS, API's, MongoDb, SSR",
+      github: "https://github.com/Babar-Jawad-Anjum/ecommerce-website",
+      demo: "https://aesthetic-brioche-06e2b8.netlify.app/",
     },
   ];
 
@@ -81,7 +87,9 @@ const Portfolio = () => {
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
-              {/* <h5>Tech Used:{tech}</h5> */}
+              {/* <h5 className="tech-sec">
+                <span className="tech-heading">Tech Used: </span> {tech}
+              </h5> */}
               <div className="portfolio__item-cta">
                 <a
                   href={github}
