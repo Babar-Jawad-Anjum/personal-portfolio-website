@@ -28,7 +28,7 @@ const About = () => {
             <article data-aos="fade-left" className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>1.5+ Years Working</small>
             </article>
 
             <article data-aos="fade-left" className="about__card">
@@ -45,11 +45,15 @@ const About = () => {
           </div>
 
           <p data-aos="fade-left">
-            I am Babar, a Fresh MERN Stack Developer with years of self
-            experience and training, specialising in creating innovative
-            Frontend designs using React and Full stack MERN applications.
-            Constantly evolving and growing. I want to be an Unstoppable person
-            who can sort out any problem.
+            Babar here, a MERN stack developer with over 1.5+ years of
+            experience in developing full stack MERN applications. I have strong
+            grip on the latest emerging technologies like JavaScript, Reactjs,
+            Nextjs, Nodejs, Expressjs, GraphQL, REST API's, HTML, CSS,
+            TailwindCSS, Bootstrap, MongoDb, MySQL and PostgreSQL. I have
+            experience in deployment of applications on Heroku, Vercel, Netlify
+            & GitHub Pages. I can build user friendly UI's and fast Full stack
+            applications. Future goals are WEB3, Blockchain, Machine Learning &
+            artificial intelligence.
           </p>
 
           <a data-aos="fade-left" href="#contact" className="btn btn-primary">
