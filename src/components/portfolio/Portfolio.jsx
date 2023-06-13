@@ -7,6 +7,7 @@ import IMG4 from "../../assets/countrty-finder.PNG";
 import IMG5 from "../../assets/portfolio5.PNG";
 import IMG6 from "../../assets/portfolio6.PNG";
 import IMG7 from "../../assets/portfolio8.PNG";
+import IMG8 from "../../assets/portfolio9.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -71,6 +72,14 @@ const Portfolio = () => {
       // tech: "Next.Js, TailWind CSS, API's, MongoDb, SSR",
       github: "https://github.com/Babar-Jawad-Anjum/ecommerce-website",
       demo: "https://aesthetic-brioche-06e2b8.netlify.app/",
+    },
+    {
+      id: 7,
+      image: IMG8,
+      title: "Beyond Technologies",
+      // tech: "Next.Js, TailWind CSS, API's, MongoDb, SSR",
+      // github: "https://github.com/Babar-Jawad-Anjum/ecommerce-website",
+      demo: "https://beyondtechservices.com/",
     },
   ];
 
