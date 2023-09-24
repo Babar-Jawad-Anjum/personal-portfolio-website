@@ -45,15 +45,20 @@ const About = () => {
           </div>
 
           <p data-aos="fade-left">
-            Babar here, a MERN stack developer with over 1.5+ years of
-            experience in developing full stack MERN applications. I have strong
-            grip on the latest emerging technologies like JavaScript, Reactjs,
-            Nextjs, Nodejs, Expressjs, GraphQL, REST API's, HTML, CSS,
-            TailwindCSS, Bootstrap, MongoDb, MySQL and PostgreSQL. I have
-            experience in deployment of applications on Heroku, Vercel, Netlify
-            & GitHub Pages. I can build user friendly UI's and fast Full stack
-            applications. Future goals are WEB3, Blockchain, Machine Learning &
-            artificial intelligence.
+            Babar here, a <b>MERN stack developer</b> with over <b>1.5+ </b>
+            years of experience in developing full stack MERN applications also
+            having expertise in <b>.NET CORE</b>. I have strong grip on the
+            latest emerging technologies like{" "}
+            <b>
+              {" "}
+              JavaScript, Reactjs, Nextjs, Nodejs, Expressjs, GraphQL, REST
+              API's, HTML, CSS, TailwindCSS, Bootstrap, MongoDb, MySQL and
+              PostgreSQL
+            </b>
+            . I have experience in deployment of applications on Heroku, Vercel,
+            Netlify & GitHub Pages. I can build user friendly UI's and fast Full
+            stack applications. Future goals are WEB3, Blockchain, Machine
+            Learning & artificial intelligence.
           </p>
 
           <a data-aos="fade-left" href="#contact" className="btn btn-primary">

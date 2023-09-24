@@ -28,7 +28,7 @@ const Portfolio = () => {
       id: 2,
       image: IMG2,
       title: "Fitness Website",
-      // tech: "SSR, EJS/PUG, Express, Bootstrap, Authentication, Authorization, MongoDb, API's, CRUD",
+      // tech: "Node Js, ExpressJs, Bootstrap, Authentication, Authorization, MongoDb",
       github:
         "https://github.com/Babar-Jawad-Anjum/Final-Term-Project-Babar-Fitness",
       demo: "https://babar-fitness-club.herokuapp.com/",
@@ -117,6 +117,11 @@ const Portfolio = () => {
                   Live Demo
                 </a>
               </div>
+
+              {/* <div class="tooltip-container">
+                <span class="trigger">Stack Used</span>
+                <div class="tooltip">{tech}</div>
+              </div> */}
             </article>
           );
         })}
