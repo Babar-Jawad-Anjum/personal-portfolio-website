@@ -28,24 +28,24 @@ const About = () => {
             <article data-aos="fade-left" className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1.5+ Years Working</small>
+              <small>2+ Years Working</small>
             </article>
 
             <article data-aos="fade-left" className="about__card">
               <TbUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>50+ World Wide</small>
+              <small>10+ World Wide</small>
             </article>
 
             <article data-aos="fade-left" className="about__card">
               <VscFolderActive className="about__icon" />
               <h5>Projects</h5>
-              <small>50+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
           <p data-aos="fade-left">
-            Babar here, a <b>MERN stack developer</b> with over <b>1.5+ </b>
+            Babar here, a <b>MERN stack developer</b> with <b>2+ </b>
             years of experience in developing full stack MERN applications also
             having expertise in <b>.NET CORE</b>. I have strong grip on the
             latest emerging technologies like{" "}
