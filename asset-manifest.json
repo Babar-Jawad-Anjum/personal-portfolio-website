@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/personal-portfolio-website/static/css/main.96c78c34.css",
-    "main.js": "/personal-portfolio-website/static/js/main.04a87bab.js",
+    "main.js": "/personal-portfolio-website/static/js/main.159e113a.js",
     "static/media/me2.png": "/personal-portfolio-website/static/media/me2.2d4e9f09e8457f9ce33f.png",
     "static/media/Babar-resume.pdf": "/personal-portfolio-website/static/media/Babar-resume.7245a987d1320f297c13.pdf",
+    "static/media/carepulse.png": "/personal-portfolio-website/static/media/carepulse.2bc8b5ef3ac7a12944b7.png",
     "static/media/mern-auth.png": "/personal-portfolio-website/static/media/mern-auth.b23c081e1df96420132e.png",
     "static/media/portfolio6.PNG": "/personal-portfolio-website/static/media/portfolio6.645bded87f1cd9725332.PNG",
     "static/media/me-about.jpeg": "/personal-portfolio-website/static/media/me-about.3fb167912dba1a7684fd.jpeg",
+    "static/media/blog-project.png": "/personal-portfolio-website/static/media/blog-project.a16fb038080da5590ef5.png",
     "static/media/estate.png": "/personal-portfolio-website/static/media/estate.6af92b3c60733544f54b.png",
     "static/media/portfolio5.PNG": "/personal-portfolio-website/static/media/portfolio5.5210a0448d09c70efb04.PNG",
     "static/media/Tour27.png": "/personal-portfolio-website/static/media/Tour27.881f178e0fcfd0450049.png",
@@ -18,10 +20,10 @@
     "static/media/portfolio3.PNG": "/personal-portfolio-website/static/media/portfolio3.aa31b46ff6bb461e65bb.PNG",
     "index.html": "/personal-portfolio-website/index.html",
     "main.96c78c34.css.map": "/personal-portfolio-website/static/css/main.96c78c34.css.map",
-    "main.04a87bab.js.map": "/personal-portfolio-website/static/js/main.04a87bab.js.map"
+    "main.159e113a.js.map": "/personal-portfolio-website/static/js/main.159e113a.js.map"
   },
   "entrypoints": [
     "static/css/main.96c78c34.css",
-    "static/js/main.04a87bab.js"
+    "static/js/main.159e113a.js"
   ]
 }
