@@ -9,6 +9,8 @@ import IMG6 from "../../assets/portfolio6.PNG";
 import IMG7 from "../../assets/portfolio8.PNG";
 import IMG8 from "../../assets/portfolio9.png";
 import IMG9 from "../../assets/Tour27.png";
+import Blog from "../../assets/blog-project.png";
+import CarePulse from "../../assets/carepulse.png";
 import MERN_AUTH from "../../assets/mern-auth.png";
 import TRELLO from "../../assets/trello.jpeg";
 import ESTATE from "../../assets/estate.png";
@@ -21,7 +23,7 @@ const Portfolio = () => {
   }, []);
   const data = [
     {
-      id: 1.1,
+      id: 1,
       image: TRELLO,
       title: "Trello 2.0",
       // tech: "React.Js, Bootstrap",
@@ -29,16 +31,15 @@ const Portfolio = () => {
       demo: "https://trello-clone-2-0-qiaa.vercel.app/",
     },
     {
-      id: 1.2,
-      image: MERN_AUTH,
-      title: "Advanced MERN Auth",
+      id: 2,
+      image: Blog,
+      title: "B-Log",
       // tech: "React.Js, Bootstrap",
-      github: "https://github.com/Babar-Jawad-Anjum/Advanced-MERN-Auth",
-      demo: "https://advanced-mern-auth-nurw.onrender.com/",
+      github: "https://github.com/Babar-Jawad-Anjum/blog-app-client",
+      demo: "https://676398c2caee5e00089f71d3--b-blog-app.netlify.app/",
     },
-
     {
-      id: 1.3,
+      id: 3,
       image: ESTATE,
       title: "Real Estate",
       // tech: "React.Js, Bootstrap",
@@ -46,7 +47,24 @@ const Portfolio = () => {
       demo: "https://e-estate.netlify.app/",
     },
     {
-      id: 7,
+      id: 4,
+      image: CarePulse,
+      title: "CarePulse",
+      // tech: "React.Js, Bootstrap",
+      github:
+        "https://github.com/Babar-Jawad-Anjum/patient-management-system-aka-carepulse",
+      demo: "https://patient-management-system-aka-carepulse-zuh5.vercel.app/",
+    },
+    {
+      id: 5,
+      image: MERN_AUTH,
+      title: "Advanced MERN Auth",
+      // tech: "React.Js, Bootstrap",
+      github: "https://github.com/Babar-Jawad-Anjum/Advanced-MERN-Auth",
+      demo: "https://advanced-mern-auth-nurw.onrender.com/",
+    },
+    {
+      id: 6,
       image: IMG7,
       title: "E-Commerce Store",
       // tech: "Next.Js, TailWind CSS, API's, MongoDb, SSR",
@@ -54,23 +72,16 @@ const Portfolio = () => {
       demo: "https://aesthetic-brioche-06e2b8.netlify.app/",
     },
     {
-      id: 3,
+      id: 7,
       image: IMG3,
       title: "Budget Calculator",
       // tech: "React.Js, Bootstrap",
       github: "https://github.com/Babar-Jawad-Anjum/Budget-calculator",
       demo: "https://babar-jawad-anjum.github.io/Budget-calculator/",
     },
+
     {
-      id: 1,
-      image: IMG1,
-      title: "Text-Utils App",
-      // tech: "React.Js, Bootstrap",
-      github: "https://github.com/Babar-Jawad-Anjum/TextUtils-React",
-      demo: "https://babar-jawad-anjum.github.io/TextUtils-React/",
-    },
-    {
-      id: 7,
+      id: 8,
       image: IMG8,
       title: "Beyond Technologies",
       // tech: "Next.Js, TailWind CSS, API's, MongoDb, SSR",
@@ -78,7 +89,7 @@ const Portfolio = () => {
       demo: "https://beyondtechservices.com/",
     },
     {
-      id: 7,
+      id: 9,
       image: IMG9,
       title: "Tour27",
       // tech: "Next.Js, TailWind CSS, API's, MongoDb, SSR",
@@ -95,9 +106,17 @@ const Portfolio = () => {
     //     "https://github.com/Babar-Jawad-Anjum/Final-Term-Project-Babar-Fitness",
     //   demo: "https://babar-fitness-club.herokuapp.com/",
     // },
+    {
+      id: 10,
+      image: IMG1,
+      title: "Text-Utils App",
+      // tech: "React.Js, Bootstrap",
+      github: "https://github.com/Babar-Jawad-Anjum/TextUtils-React",
+      demo: "https://babar-jawad-anjum.github.io/TextUtils-React/",
+    },
 
     {
-      id: 4,
+      id: 11,
       image: IMG4,
       title: "Country Finder App",
       // tech: "React.Js, Bootstrap, API, Search Filter",
@@ -105,7 +124,7 @@ const Portfolio = () => {
       demo: "https://country-finder-wheat.vercel.app/",
     },
     {
-      id: 5,
+      id: 12,
       image: IMG5,
       title: "E-Commerce Shoes",
       // tech: "React.Js, Bootstrap",
@@ -113,7 +132,7 @@ const Portfolio = () => {
       demo: "https://luxury-naiad-040217.netlify.app/",
     },
     {
-      id: 6,
+      id: 13,
       image: IMG6,
       title: "Cocktail-Db",
       // tech: "React.Js, Bootstrap, API",
