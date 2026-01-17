@@ -28,13 +28,13 @@ const About = () => {
             <article data-aos="fade-left" className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>3.5+ Years Working</small>
             </article>
 
             <article data-aos="fade-left" className="about__card">
               <TbUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>10+ World Wide</small>
+              <small>5+ World Wide</small>
             </article>
 
             <article data-aos="fade-left" className="about__card">
@@ -45,20 +45,29 @@ const About = () => {
           </div>
 
           <p data-aos="fade-left">
-            Babar here, a <b>MERN stack developer</b> with <b>2+ </b>
-            years of experience in developing full stack MERN applications also
-            having expertise in <b>.NET CORE</b>. I have strong grip on the
-            latest emerging technologies like{" "}
-            <b>
-              {" "}
-              JavaScript, Reactjs, Nextjs, Nodejs, Expressjs, GraphQL, REST
-              API's, HTML, CSS, TailwindCSS, Bootstrap, MongoDb, MySQL and
-              PostgreSQL
+            Hi, I’m <b>Babar</b> 👋 — a <b>Full-Stack Software Engineer</b> with{" "}
+            <b>3.5+ years</b>{" "}
+            of professional experience building scalable, production-ready web
+            applications. I primarily work with
+            <b style={{ marginBottom: "12px" }}>
+              JavaScript, React, Next.js, Node.js, NestJS, REST & GraphQL APIs,
+              PostgreSQL, MongoDB, and MySQL
             </b>
-            . I have experience in deployment of applications on Heroku, Vercel,
-            Netlify & GitHub Pages. I can build user friendly UI's and fast Full
-            stack applications. Future goals are WEB3, Blockchain, Machine
-            Learning & artificial intelligence.
+            .
+            <br />I have hands-on experience across the full development
+            lifecycle — from backend architecture and API design to frontend
+            performance optimization and cloud deployments. I’ve built real-time
+            systems, AI-powered features, and deployed secure, multi-tier
+            applications on{" "}
+            <b style={{ marginBottom: "12px" }}>
+              AWS using Docker, Nginx, and CI/CD pipelines
+            </b>
+            .
+            <br />I enjoy solving problems that require{" "}
+            <b>system-level thinking</b>, clean architecture, and long-term
+            scalability. Currently, I’m going deeper into{" "}
+            <b>System Design, Backend Architecture, and DevOps</b>{" "}
+            to build more reliable and scalable systems.
           </p>
 
           <a data-aos="fade-left" href="#contact" className="btn btn-primary">

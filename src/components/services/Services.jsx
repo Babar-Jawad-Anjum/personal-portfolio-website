@@ -8,123 +8,114 @@ const Services = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
+
   return (
     <section id="services">
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
       <div className="container services__container">
+        {/* Full Stack Development */}
         <article data-aos="fade-left" className="service">
           <div className="service__head">
-            <h3>Game Development</h3>
+            <h3>Full-Stack Web Development</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Full Game APK & AAB Files</p>
+              <p>Production-ready web applications</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Cross-platform (iOS, Android)</p>
+              <p>React & Next.js (SSR, ISR, App Router)</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Game Prototype</p>
+              <p>Scalable backend with Node.js & NestJS</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>High Quality Icon</p>
+              <p>REST & GraphQL API development</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Google Admob ads Integration</p>
+              <p>Authentication & authorization (JWT, OAuth)</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Publishing To PlayStore OR AppStore</p>
+              <p>Real-time features using Socket.io</p>
             </li>
           </ul>
         </article>
-        {/* End of UI/UX */}
+
+        {/* Backend & System Design */}
         <article data-aos="fade-left" className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Backend & System Design</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Landing Pages</p>
+              <p>System design (HLD & LLD)</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Custom One Page Template</p>
+              <p>Clean Architecture & Domain-Driven Design</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Custom many Pages Template</p>
+              <p>Database design & query optimization</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Responsive Bootstrap Design</p>
+              <p>Monolithic & microservices architectures</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Responsive Designs</p>
+              <p>Performance & scalability optimization</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>MERN Full Stack Website</p>
-            </li>
-            <li>
-              <CgCheck className="service__list-icon" />
-              <p>REST API's</p>
-            </li>
-            <li>
-              <CgCheck className="service__list-icon" />
-              <p>HTML/ CSS/ JavaScript</p>
-            </li>
-            <li>
-              <CgCheck className="service__list-icon" />
-              <p>CSS3 Animations</p>
+              <p>Secure and maintainable API design</p>
             </li>
           </ul>
         </article>
-        {/* End of Web Development */}
+
+        {/* DevOps & Cloud */}
         <article data-aos="fade-left" className="service">
           <div className="service__head">
-            <h3>Mobile Apps</h3>
+            <h3>DevOps & Cloud Deployment</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Custom Mobile App Development</p>
+              <p>AWS deployment (EC2, S3, RDS)</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>React Native Development.</p>
+              <p>Docker & containerized applications</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Flutter App Development</p>
+              <p>Nginx, reverse proxy & SSL setup</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Mobile App UI/UX Design</p>
+              <p>CI/CD pipelines with GitHub Actions</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Design App Icon</p>
+              <p>Monitoring & logging (CloudWatch)</p>
             </li>
             <li>
               <CgCheck className="service__list-icon" />
-              <p>Integrate Push Notification</p>
+              <p>Production-ready & secure deployments</p>
             </li>
           </ul>
         </article>
-        {/* End of Content Creation */}
       </div>
     </section>
   );
