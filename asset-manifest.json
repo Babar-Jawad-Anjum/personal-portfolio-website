@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/personal-portfolio-website/static/css/main.96c78c34.css",
-    "main.js": "/personal-portfolio-website/static/js/main.159e113a.js",
+    "main.js": "/personal-portfolio-website/static/js/main.522782eb.js",
     "static/media/me2.png": "/personal-portfolio-website/static/media/me2.2d4e9f09e8457f9ce33f.png",
-    "static/media/Babar-resume.pdf": "/personal-portfolio-website/static/media/Babar-resume.7245a987d1320f297c13.pdf",
+    "static/media/Babar-Resume.pdf": "/personal-portfolio-website/static/media/Babar-Resume.6edefe04932081eac950.pdf",
     "static/media/carepulse.png": "/personal-portfolio-website/static/media/carepulse.2bc8b5ef3ac7a12944b7.png",
     "static/media/mern-auth.png": "/personal-portfolio-website/static/media/mern-auth.b23c081e1df96420132e.png",
     "static/media/portfolio6.PNG": "/personal-portfolio-website/static/media/portfolio6.645bded87f1cd9725332.PNG",
@@ -20,10 +20,10 @@
     "static/media/portfolio3.PNG": "/personal-portfolio-website/static/media/portfolio3.aa31b46ff6bb461e65bb.PNG",
     "index.html": "/personal-portfolio-website/index.html",
     "main.96c78c34.css.map": "/personal-portfolio-website/static/css/main.96c78c34.css.map",
-    "main.159e113a.js.map": "/personal-portfolio-website/static/js/main.159e113a.js.map"
+    "main.522782eb.js.map": "/personal-portfolio-website/static/js/main.522782eb.js.map"
   },
   "entrypoints": [
     "static/css/main.96c78c34.css",
-    "static/js/main.159e113a.js"
+    "static/js/main.522782eb.js"
   ]
 }
